@@ -794,6 +794,6 @@ async function SEND_SMS(phone) {
 }
 
 
-SEND_SMS("0393000360").then(result => {
+SEND_SMS("0222222222222").then(result => {
     console.log(result);
 }).catch((error) => console.log(error));
